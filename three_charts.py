@@ -9,8 +9,8 @@ fig = go.Figure(go.Bar(
             y=['giraffes', 'orangutans', 'monkeys'],
             orientation='h'))
 
-#fig.show()
-plotly.offline.plot(fig)
+#fig.show() - this does not work 
+plotly.offline.plot(fig)  #code works !!! -- reference : https://stackoverflow.com/questions/61766508/site-cannot-be-reached-when-graph-using-plotly/62215075#62215075 
 
 
 
